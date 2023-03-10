@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Comments</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="scss/style.css">
+</head>
+
+
+<body>
+<div class="wrapper">
+    <div class="comments _container" id="comments_field">
+
+    </div>
+<form class="input_block _container">
+    <div class="error" id="error"></div>
+    <div class="mb-3">
+        <label for="input_name" class="form-label">Введите своё имя и фамилию:</label>
+        <input type="text" name="name" class="form-control field" id="input_name">
+    </div>
+    <div class="mb-3">
+        <label for="input_comment" class="form-label" id="comment_body">Комментарий:</label>
+        <textarea class="form-input field" name="body" id="input_comment"></textarea>
+    </div>
+    <div class="mb-3">
+        <label for="input_date">Выберите дату:</label>
+        <input class="input_date" type="date" id="input_date" name="trip-start">
+    </div>
+    <div class="add_comment">
+        <button type="submit" class="btn" id="comment_add">Отправить</button>
+    </div>
+</form>
+</div>
+<script src="/js/script.js"></script>
+</body>
+
+</html>

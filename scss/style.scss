@@ -1,0 +1,102 @@
+@import "null_style.scss";
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+._container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: content-box;
+}
+
+.mb-3, .output_body {
+  display:block;
+  width:100%;
+  margin: 5px 0;
+  padding:10px;
+
+  background-color: #EFFBFB;
+  border:0;
+  box-shadow:0 0 4px rgba(0,0,0,0.3);
+  transition: .3s box-shadow;
+}
+.mb-3, .output_body :hover {
+  box-shadow:0 0 4px rgba(0,0,0,0.5);
+}
+.input_date {
+  background: #EFFBFB;
+}
+.input_block {
+  display: flex;
+  flex-direction: column;
+}
+.output_date_name{
+  min-width: 100%;
+  min-height: 50px;
+  text-align: center;
+  padding-top: 15px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #313133;
+  background: #4FD1C5;
+  background: linear-gradient(90deg, rgba(129, 230, 217, 1) 0%, rgba(79, 209, 197, 1) 100%);
+  border: none;
+  box-shadow: 12px 12px 12px rgba(79, 209, 197, .64);
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+}
+.output_body{
+  width: 100%;
+}
+.form-control {
+}
+.form-input {
+  height: 100px;
+  width: 400px;
+}
+.add_comment{
+  margin: 0 0 50px 180px;
+}
+.btn {
+  min-width: 150px;
+  min-height: 30px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  font-weight: 700;
+  color: #313133;
+  background: #4FD1C5;
+  background: linear-gradient(90deg, rgba(129, 230, 217, 1) 0%, rgba(79, 209, 197, 1) 100%);
+  border: none;
+  border-radius: 1000px;
+  box-shadow: 12px 12px 24px rgba(79, 209, 197, .64);
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+}
+.buttons_group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.comments {
+  margin: 20px 0 20px 0;
+}
+.like {
+  width: 24px;
+  height: 24px;
+}
+.error {
+  color: #af4242;
+  background-color: #fde8ec;
+}
